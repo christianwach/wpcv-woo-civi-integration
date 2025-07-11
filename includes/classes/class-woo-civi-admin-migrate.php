@@ -155,7 +155,7 @@ class WPCV_Woo_Civi_Admin_Migrate {
 			// Show general "Call to Action".
 			$message = sprintf(
 				/* translators: 1: Opening strong tag, 2: Closing strong tag, 3: Opening anchor tag, 4: Closing anchor tag */
-				esc_html__( '%1$sWooCommerce CiviCRM%2$s has become %1$sIntegrate CiviCRM with WooCommerce%2$s. Please visit the %3$sMigration Page%4$s to switch over.', 'wpcv-woo-civi-integration' ),
+				esc_html__( '%1$sWooCommerce CiviCRM%2$s has become %1$sWPCV CiviCRM integration for WooCommerce%2$s. Please visit the %3$sMigration Page%4$s to switch over.', 'wpcv-woo-civi-integration' ),
 				'<strong>',
 				'</strong>',
 				'<a href="' . menu_page_url( 'wpcv_woocivi_migrate', false ) . '">', // The returned URL is already escaped.
@@ -191,7 +191,7 @@ class WPCV_Woo_Civi_Admin_Migrate {
 		// Add our "Migration Page" to the CiviCRM menu.
 		$this->migrate_page = add_submenu_page(
 			'CiviCRM', // Parent slug.
-			__( 'Integrate CiviCRM with WooCommerce', 'wpcv-woo-civi-integration' ), // Page title.
+			__( 'WPCV CiviCRM integration for WooCommerce', 'wpcv-woo-civi-integration' ), // Page title.
 			__( 'WooCommerce', 'wpcv-woo-civi-integration' ), // Menu title.
 			'manage_options', // Required caps.
 			$this->migrate_page_slug, // Slug name.

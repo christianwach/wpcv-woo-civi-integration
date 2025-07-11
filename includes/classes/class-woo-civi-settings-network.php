@@ -88,8 +88,8 @@ class WPCV_Woo_Civi_Settings_Network {
 
 		add_submenu_page(
 			'settings.php',
-			__( 'Integrate CiviCRM with WooCommerce Settings', 'wpcv-woo-civi-integration' ),
-			__( 'Integrate CiviCRM with WooCommerce Settings', 'wpcv-woo-civi-integration' ),
+			__( 'WPCV CiviCRM integration for WooCommerce Settings', 'wpcv-woo-civi-integration' ),
+			__( 'WPCV CiviCRM integration for WooCommerce Settings', 'wpcv-woo-civi-integration' ),
 			'manage_network_options',
 			'woocommerce-civicrm-settings',
 			[ $this, 'network_settings_render' ]
@@ -112,7 +112,7 @@ class WPCV_Woo_Civi_Settings_Network {
 
 		?>
 		<div class="wrap">
-			<h2><?php esc_html_e( 'Integrate CiviCRM with WooCommerce Settings', 'wpcv-woo-civi-integration' ); ?></h2>
+			<h2><?php esc_html_e( 'WPCV CiviCRM integration for WooCommerce Settings', 'wpcv-woo-civi-integration' ); ?></h2>
 			<?php settings_errors(); ?>
 			<form action="edit.php?action=woocommerce_civicrm_network_settings" method="post">
 				<?php wp_nonce_field( 'woocommerce-civicrm-settings', 'woocommerce-civicrm-settings' ); ?>

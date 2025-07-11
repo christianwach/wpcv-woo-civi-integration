@@ -1,10 +1,10 @@
-# Integrate CiviCRM with WooCommerce
+# WPCV CiviCRM integration for WooCommerce
 
 **Contributors:** [See full Contributor List](https://github.com/WPCV/wpcv-woo-civi-integration/graphs/contributors)<br/>
 **Donate link:** https://www.paypal.me/interactivist<br/>
 **Tags:** civicrm, woocommerce, contribution, sync<br/>
 **Requires at least:** 5.7<br/>
-**Tested up to:** 6.5<br/>
+**Tested up to:** 6.6<br/>
 **Stable tag:** 3.1.2a<br/>
 **License:** GPLv2 or later<br/>
 **License URI:** https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -15,9 +15,9 @@ A WordPress plugin that creates CiviCRM Contributions, Memberships and Participa
 
 ## Description
 
-Please note: this is the development repository for *Integrate CiviCRM with WooCommerce*.
+Please note: this is the development repository for *WPCV CiviCRM integration for WooCommerce*.
 
-*Integrate CiviCRM with WooCommerce* is a WordPress plugin that creates CiviCRM Contributions, Memberships and Participants from WooCommerce  Products and keeps WooCommerce Customer Accounts in sync with CiviCRM Contact data.
+*WPCV CiviCRM integration for WooCommerce* is a WordPress plugin that creates CiviCRM Contributions, Memberships and Participants from WooCommerce  Products and keeps WooCommerce Customer Accounts in sync with CiviCRM Contact data.
 
 
 
@@ -73,7 +73,7 @@ There are two ways to install from GitHub:
 
 ### ZIP Download
 
-If you have downloaded Integrate CiviCRM with WooCommerce as a ZIP file from the GitHub repository, do the following to install the plugin:
+If you have downloaded WPCV CiviCRM integration for WooCommerce as a ZIP file from the GitHub repository, do the following to install the plugin:
 
 1. Unzip the .zip file and, if needed, rename the enclosing folder so that the plugin's files are located directly inside `/wp-content/plugins/wpcv-woo-civi-integration`
 2. Make sure *WooCommerce* is activated and configured

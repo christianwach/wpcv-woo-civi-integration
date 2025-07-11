@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 <!-- assets/templates/pages/page-admin.php -->
 <div class="wrap">
 
-	<h1><?php esc_html_e( 'Integrate CiviCRM with WooCommerce', 'wpcv-woo-civi-integration' ); ?></h1>
+	<h1><?php esc_html_e( 'WPCV CiviCRM integration for WooCommerce', 'wpcv-woo-civi-integration' ); ?></h1>
 
 	<p><?php esc_html_e( 'Here are some utilities for creating Products from Entities in CiviCRM.', 'wpcv-woo-civi-integration' ); ?></p>
 

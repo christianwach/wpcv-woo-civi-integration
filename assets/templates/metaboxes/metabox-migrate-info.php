@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 
 	<h3><?php esc_html_e( 'What needs to be done?', 'wpcv-woo-civi-integration' ); ?></h3>
 
-	<p><?php esc_html_e( 'Before you go ahead and deactivate and delete the WooCommerce CiviCRM plugin, there are few things that need to be checked to make sure your site continues to work as normal.', 'wpcv-woo-civi-integration' ); ?> <em><?php esc_html_e( 'Integrate CiviCRM with WooCommerce will not affect your site until you have started one of the migration steps below, so take your time.', 'wpcv-woo-civi-integration' ); ?></em></p>
+	<p><?php esc_html_e( 'Before you go ahead and deactivate and delete the WooCommerce CiviCRM plugin, there are few things that need to be checked to make sure your site continues to work as normal.', 'wpcv-woo-civi-integration' ); ?> <em><?php esc_html_e( 'WPCV CiviCRM integration for WooCommerce will not affect your site until you have started one of the migration steps below, so take your time.', 'wpcv-woo-civi-integration' ); ?></em></p>
 
 	<h4><?php esc_html_e( 'Filters and Actions', 'wpcv-woo-civi-integration' ); ?></h4>
 
@@ -75,7 +75,7 @@ defined( 'ABSPATH' ) || exit;
 
 	<h3><?php esc_html_e( 'Congratulations!', 'wpcv-woo-civi-integration' ); ?></h3>
 
-	<p><em><?php esc_html_e( 'You have successfully migrated from WooCommerce CiviCRM to Integrate CiviCRM with WooCommerce.', 'wpcv-woo-civi-integration' ); ?></em></p>
+	<p><em><?php esc_html_e( 'You have successfully migrated from WooCommerce CiviCRM to WPCV CiviCRM integration for WooCommerce.', 'wpcv-woo-civi-integration' ); ?></em></p>
 
 	<p>
 		<?php
@@ -90,6 +90,6 @@ defined( 'ABSPATH' ) || exit;
 		?>
 	</p>
 
-	<p><?php esc_html_e( 'Reminder: When you have deactivated WooCommerce CiviCRM, make sure you visit the "CiviCRM" Settings Tab to configure Integrate CiviCRM with WooCommerce. You will also need to review the CiviCRM settings for every active Product in your Shop to ensure they are all properly configured.', 'wpcv-woo-civi-integration' ); ?></p>
+	<p><?php esc_html_e( 'Reminder: When you have deactivated WooCommerce CiviCRM, make sure you visit the "CiviCRM" Settings Tab to configure WPCV CiviCRM integration for WooCommerce. You will also need to review the CiviCRM settings for every active Product in your Shop to ensure they are all properly configured.', 'wpcv-woo-civi-integration' ); ?></p>
 
 <?php endif; ?>

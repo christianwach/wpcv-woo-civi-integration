@@ -111,7 +111,7 @@ class WPCV_Woo_Civi_Admin {
 		// Add our Admin page to the CiviCRM menu.
 		$this->admin_page = add_submenu_page(
 			'CiviCRM', // Parent slug.
-			__( 'Integrate CiviCRM with WooCommerce', 'wpcv-woo-civi-integration' ), // Page title.
+			__( 'WPCV CiviCRM integration for WooCommerce', 'wpcv-woo-civi-integration' ), // Page title.
 			__( 'WooCommerce', 'wpcv-woo-civi-integration' ), // Menu title.
 			'manage_options', // Required caps.
 			$this->admin_page_slug, // Slug name.

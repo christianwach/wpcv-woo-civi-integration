@@ -1,9 +1,9 @@
-=== Integrate CiviCRM with WooCommerce ===
+=== WPCV CiviCRM integration for WooCommerce ===
 Contributors: needle, bastho, mecachisenros, rajeshrhino, kcristiano, tadpolecc
 Donate link: https://www.paypal.me/interactivist
 Tags: civicrm, woocommerce, integration
 Requires at least: 5.7
-Tested up to: 6.5
+Tested up to: 6.6
 Stable tag: 3.1.2a
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -15,7 +15,7 @@ Creates CiviCRM Contributions, Memberships and Participants from WooCommerce Ord
 
 == Description ==
 
-*Integrate CiviCRM with WooCommerce* creates CiviCRM Contributions, Memberships and Participants from WooCommerce Orders and keeps WooCommerce Customer Accounts in sync with CiviCRM Contact data.
+*WPCV CiviCRM integration for WooCommerce* creates CiviCRM Contributions, Memberships and Participants from WooCommerce Orders and keeps WooCommerce Customer Accounts in sync with CiviCRM Contact data.
 
 ### Features
 

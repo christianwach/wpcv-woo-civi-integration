@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 <!-- assets/templates/pages/page-admin-migrate.php -->
 <div class="wrap">
 
-	<h1><?php esc_html_e( 'Integrate CiviCRM with WooCommerce', 'wpcv-woo-civi-integration' ); ?></h1>
+	<h1><?php esc_html_e( 'WPCV CiviCRM integration for WooCommerce', 'wpcv-woo-civi-integration' ); ?></h1>
 
 	<?php /* phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped */ ?>
 	<form method="post" id="wpcv_woocivi_migrate_form" action="<?php echo $this->page_submit_url_get(); ?>">

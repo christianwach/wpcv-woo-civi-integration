@@ -1,17 +1,17 @@
 # Copyright (C) 2024 WPCV
-# This file is distributed under the same license as the Integrate CiviCRM with WooCommerce plugin.
+# This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Integrate CiviCRM with WooCommerce 3.1.1a\n"
+"Project-Id-Version: WPCV CiviCRM integration for WooCommerce 3.1.2a\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpcv-woo-civi-integration\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-05-03T12:30:32+00:00\n"
+"POT-Creation-Date: 2024-10-11T15:38:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.10.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: wpcv-woo-civi-integration\n"
 
 #. Plugin Name of the plugin
@@ -20,10 +20,7 @@ msgstr ""
 #: assets/templates/pages/page-admin.php:18
 #: includes/classes/class-woo-civi-admin-migrate.php:194
 #: includes/classes/class-woo-civi-admin.php:114
-#: wpcv-woo-civi-integration.php:726
-#: wpcv-woo-civi-integration.php:769
-#: wpcv-woo-civi-integration.php:812
-msgid "Integrate CiviCRM with WooCommerce"
+msgid "WPCV CiviCRM integration for WooCommerce"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -147,9 +144,9 @@ msgstr ""
 #: includes/classes/class-woo-civi-membership.php:649
 #: includes/classes/class-woo-civi-membership.php:778
 #: includes/classes/class-woo-civi-membership.php:828
-#: includes/classes/class-woo-civi-participant.php:952
-#: includes/classes/class-woo-civi-participant.php:1142
-#: includes/classes/class-woo-civi-participant.php:1197
+#: includes/classes/class-woo-civi-participant.php:988
+#: includes/classes/class-woo-civi-participant.php:1178
+#: includes/classes/class-woo-civi-participant.php:1233
 msgid "Price Field Value"
 msgstr ""
 
@@ -171,9 +168,9 @@ msgstr ""
 #: includes/classes/class-woo-civi-membership.php:655
 #: includes/classes/class-woo-civi-membership.php:785
 #: includes/classes/class-woo-civi-membership.php:835
-#: includes/classes/class-woo-civi-participant.php:958
-#: includes/classes/class-woo-civi-participant.php:1149
-#: includes/classes/class-woo-civi-participant.php:1204
+#: includes/classes/class-woo-civi-participant.php:994
+#: includes/classes/class-woo-civi-participant.php:1185
+#: includes/classes/class-woo-civi-participant.php:1240
 msgid "%1$s (%2$s)"
 msgstr ""
 
@@ -189,8 +186,8 @@ msgstr ""
 
 #: assets/templates/metaboxes/metabox-admin-event.php:32
 #: assets/templates/woocommerce/admin/meta-boxes/views/html-product-data-settings-participant.php:80
-#: includes/classes/class-woo-civi-participant.php:918
-#: includes/classes/class-woo-civi-participant.php:1035
+#: includes/classes/class-woo-civi-participant.php:954
+#: includes/classes/class-woo-civi-participant.php:1071
 msgid "Search for a CiviCRM Event&hellip;"
 msgstr ""
 
@@ -198,9 +195,9 @@ msgstr ""
 #: assets/templates/woocommerce/admin/meta-boxes/views/html-product-data-settings-participant.php:81
 #: includes/classes/class-woo-civi-campaign.php:243
 #: includes/classes/class-woo-civi-campaign.php:323
-#: includes/classes/class-woo-civi-participant.php:563
-#: includes/classes/class-woo-civi-participant.php:919
-#: includes/classes/class-woo-civi-participant.php:1036
+#: includes/classes/class-woo-civi-participant.php:590
+#: includes/classes/class-woo-civi-participant.php:955
+#: includes/classes/class-woo-civi-participant.php:1072
 msgid "None"
 msgstr ""
 
@@ -209,17 +206,17 @@ msgid "Choose the CiviCRM Event that you want to create the Product from."
 msgstr ""
 
 #: assets/templates/metaboxes/metabox-admin-event.php:63
-#: includes/classes/class-woo-civi-participant.php:778
+#: includes/classes/class-woo-civi-participant.php:814
 #: includes/classes/class-woo-civi-products-custom.php:80
 msgid "CiviCRM Participant"
 msgstr ""
 
 #: assets/templates/metaboxes/metabox-admin-event.php:71
 #: assets/templates/woocommerce/admin/meta-boxes/views/html-product-data-settings-participant.php:102
-#: includes/classes/class-woo-civi-participant.php:940
-#: includes/classes/class-woo-civi-participant.php:1052
-#: includes/classes/class-woo-civi-participant.php:1130
-#: includes/classes/class-woo-civi-participant.php:1185
+#: includes/classes/class-woo-civi-participant.php:976
+#: includes/classes/class-woo-civi-participant.php:1088
+#: includes/classes/class-woo-civi-participant.php:1166
+#: includes/classes/class-woo-civi-participant.php:1221
 msgid "Participant Role"
 msgstr ""
 
@@ -263,7 +260,7 @@ msgid "Before you go ahead and deactivate and delete the WooCommerce CiviCRM plu
 msgstr ""
 
 #: assets/templates/metaboxes/metabox-migrate-info.php:22
-msgid "Integrate CiviCRM with WooCommerce will not affect your site until you have started one of the migration steps below, so take your time."
+msgid "WPCV CiviCRM integration for WooCommerce will not affect your site until you have started one of the migration steps below, so take your time."
 msgstr ""
 
 #: assets/templates/metaboxes/metabox-migrate-info.php:24
@@ -304,7 +301,7 @@ msgid "This plugin needs to store some information in WooCommerce Order metadata
 msgstr ""
 
 #: assets/templates/metaboxes/metabox-migrate-info.php:70
-#: wpcv-woo-civi-integration.php:569
+#: wpcv-woo-civi-integration.php:571
 msgid "Settings"
 msgstr ""
 
@@ -317,7 +314,7 @@ msgid "Congratulations!"
 msgstr ""
 
 #: assets/templates/metaboxes/metabox-migrate-info.php:78
-msgid "You have successfully migrated from WooCommerce CiviCRM to Integrate CiviCRM with WooCommerce."
+msgid "You have successfully migrated from WooCommerce CiviCRM to WPCV CiviCRM integration for WooCommerce."
 msgstr ""
 
 #. translators: 1: Opening anchor tag, 2: Closing anchor tag
@@ -326,7 +323,7 @@ msgid "You can now go to your %1$sPlugins page%2$s and deactivate the WooCommerc
 msgstr ""
 
 #: assets/templates/metaboxes/metabox-migrate-info.php:93
-msgid "Reminder: When you have deactivated WooCommerce CiviCRM, make sure you visit the \"CiviCRM\" Settings Tab to configure Integrate CiviCRM with WooCommerce. You will also need to review the CiviCRM settings for every active Product in your Shop to ensure they are all properly configured."
+msgid "Reminder: When you have deactivated WooCommerce CiviCRM, make sure you visit the \"CiviCRM\" Settings Tab to configure WPCV CiviCRM integration for WooCommerce. You will also need to review the CiviCRM settings for every active Product in your Shop to ensure they are all properly configured."
 msgstr ""
 
 #: assets/templates/metaboxes/metabox-migrate-submit.php:18
@@ -376,7 +373,7 @@ msgstr ""
 #: assets/templates/woocommerce/admin/meta-boxes/views/html-product-data-settings-participant.php:118
 #: includes/classes/class-woo-civi-helper.php:543
 #: includes/classes/class-woo-civi-membership.php:651
-#: includes/classes/class-woo-civi-participant.php:954
+#: includes/classes/class-woo-civi-participant.php:990
 msgid "Select a Price Field"
 msgstr ""
 
@@ -413,26 +410,26 @@ msgid "Select The Price Field for the Membership."
 msgstr ""
 
 #: assets/templates/woocommerce/admin/meta-boxes/views/html-product-data-settings-participant.php:79
-#: includes/classes/class-woo-civi-participant.php:917
-#: includes/classes/class-woo-civi-participant.php:1027
-#: includes/classes/class-woo-civi-participant.php:1123
+#: includes/classes/class-woo-civi-participant.php:953
+#: includes/classes/class-woo-civi-participant.php:1063
+#: includes/classes/class-woo-civi-participant.php:1159
 msgid "Event"
 msgstr ""
 
 #: assets/templates/woocommerce/admin/meta-boxes/views/html-product-data-settings-participant.php:88
-#: includes/classes/class-woo-civi-participant.php:926
+#: includes/classes/class-woo-civi-participant.php:962
 msgid "Select an Event if you would like this Product to create an Event Participant in CiviCRM."
 msgstr ""
 
 #: assets/templates/woocommerce/admin/meta-boxes/views/html-product-data-settings-participant.php:95
-#: includes/classes/class-woo-civi-participant.php:933
-#: includes/classes/class-woo-civi-participant.php:1019
+#: includes/classes/class-woo-civi-participant.php:969
+#: includes/classes/class-woo-civi-participant.php:1055
 msgid "Select a Participant Role"
 msgstr ""
 
 #: assets/templates/woocommerce/admin/meta-boxes/views/html-product-data-settings-participant.php:104
-#: includes/classes/class-woo-civi-participant.php:942
-#: includes/classes/class-woo-civi-participant.php:1054
+#: includes/classes/class-woo-civi-participant.php:978
+#: includes/classes/class-woo-civi-participant.php:1090
 msgid "Select a Participant Role for the Event Participant."
 msgstr ""
 
@@ -457,12 +454,11 @@ msgstr ""
 
 #. translators: 1: Opening strong tag, 2: Closing strong tag, 3: Opening anchor tag, 4: Closing anchor tag
 #: includes/classes/class-woo-civi-admin-migrate.php:158
-msgid "%1$sWooCommerce CiviCRM%2$s has become %1$sIntegrate CiviCRM with WooCommerce%2$s. Please visit the %3$sMigration Page%4$s to switch over."
+msgid "%1$sWooCommerce CiviCRM%2$s has become %1$sWPCV CiviCRM integration for WooCommerce%2$s. Please visit the %3$sMigration Page%4$s to switch over."
 msgstr ""
 
 #: includes/classes/class-woo-civi-admin-migrate.php:195
 #: includes/classes/class-woo-civi-admin.php:115
-#: wpcv-woo-civi-integration.php:727
 msgid "WooCommerce"
 msgstr ""
 
@@ -662,41 +658,41 @@ msgstr ""
 msgid "Woo Orders"
 msgstr ""
 
-#: includes/classes/class-woo-civi-contact-orders-tab.php:191
+#: includes/classes/class-woo-civi-contact-orders-tab.php:192
 msgid "Unable to find Contact"
-msgstr ""
-
-#: includes/classes/class-woo-civi-contact-orders-tab.php:215
-msgctxt "Order status"
-msgid "Pending payment"
-msgstr ""
-
-#: includes/classes/class-woo-civi-contact-orders-tab.php:216
-msgctxt "Order status"
-msgid "Processing"
-msgstr ""
-
-#: includes/classes/class-woo-civi-contact-orders-tab.php:217
-msgctxt "Order status"
-msgid "On hold"
 msgstr ""
 
 #: includes/classes/class-woo-civi-contact-orders-tab.php:218
 msgctxt "Order status"
-msgid "Completed"
+msgid "Pending payment"
 msgstr ""
 
 #: includes/classes/class-woo-civi-contact-orders-tab.php:219
 msgctxt "Order status"
-msgid "Cancelled"
+msgid "Processing"
 msgstr ""
 
 #: includes/classes/class-woo-civi-contact-orders-tab.php:220
 msgctxt "Order status"
-msgid "Refunded"
+msgid "On hold"
 msgstr ""
 
 #: includes/classes/class-woo-civi-contact-orders-tab.php:221
+msgctxt "Order status"
+msgid "Completed"
+msgstr ""
+
+#: includes/classes/class-woo-civi-contact-orders-tab.php:222
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/classes/class-woo-civi-contact-orders-tab.php:223
+msgctxt "Order status"
+msgid "Refunded"
+msgstr ""
+
+#: includes/classes/class-woo-civi-contact-orders-tab.php:224
 msgctxt "Order status"
 msgid "Failed"
 msgstr ""
@@ -772,15 +768,15 @@ msgstr ""
 msgid "Organization"
 msgstr ""
 
-#: includes/classes/class-woo-civi-contact.php:1145
+#: includes/classes/class-woo-civi-contact.php:1154
 msgid "WooCommerce Account"
 msgstr ""
 
-#: includes/classes/class-woo-civi-contact.php:1159
+#: includes/classes/class-woo-civi-contact.php:1168
 msgid "Unable to update Contact after WooCommerce Signup"
 msgstr ""
 
-#: includes/classes/class-woo-civi-contact.php:1349
+#: includes/classes/class-woo-civi-contact.php:1367
 msgid "No Sub-type selected"
 msgstr ""
 
@@ -809,11 +805,11 @@ msgstr ""
 msgid "Unable to create Payment record."
 msgstr ""
 
-#: includes/classes/class-woo-civi-contribution.php:886
+#: includes/classes/class-woo-civi-contribution.php:910
 msgid "Unable to create a Note for a Contribution."
 msgstr ""
 
-#: includes/classes/class-woo-civi-contribution.php:964
+#: includes/classes/class-woo-civi-contribution.php:988
 msgid "Unable to update Contribution Status"
 msgstr ""
 
@@ -869,15 +865,15 @@ msgstr ""
 
 #: includes/classes/class-woo-civi-membership.php:758
 #: includes/classes/class-woo-civi-membership.php:781
-#: includes/classes/class-woo-civi-participant.php:1115
-#: includes/classes/class-woo-civi-participant.php:1145
+#: includes/classes/class-woo-civi-participant.php:1151
+#: includes/classes/class-woo-civi-participant.php:1181
 msgid "- No Change -"
 msgstr ""
 
 #: includes/classes/class-woo-civi-membership.php:808
 #: includes/classes/class-woo-civi-membership.php:831
-#: includes/classes/class-woo-civi-participant.php:1173
-#: includes/classes/class-woo-civi-participant.php:1200
+#: includes/classes/class-woo-civi-participant.php:1209
+#: includes/classes/class-woo-civi-participant.php:1236
 #: includes/classes/class-woo-civi-settings-products.php:586
 #: includes/classes/class-woo-civi-settings-products.php:591
 msgid "Not set"
@@ -916,20 +912,20 @@ msgstr ""
 msgid "%1$s: %2$s"
 msgstr ""
 
-#: includes/classes/class-woo-civi-participant.php:671
+#: includes/classes/class-woo-civi-participant.php:707
 msgid "Unable to retrieve CiviCRM Participant Role Option Group."
 msgstr ""
 
-#: includes/classes/class-woo-civi-participant.php:965
+#: includes/classes/class-woo-civi-participant.php:1001
 msgid "Select The Price Field for the Event Participant."
 msgstr ""
 
-#: includes/classes/class-woo-civi-participant.php:1028
+#: includes/classes/class-woo-civi-participant.php:1064
 msgid "Select an Event if you would like this Product Variation to create an Event Participant in CiviCRM."
 msgstr ""
 
-#: includes/classes/class-woo-civi-participant.php:1125
-#: includes/classes/class-woo-civi-participant.php:1181
+#: includes/classes/class-woo-civi-participant.php:1161
+#: includes/classes/class-woo-civi-participant.php:1217
 msgid "Edit the Product to set the Event"
 msgstr ""
 
@@ -962,7 +958,7 @@ msgstr ""
 #: includes/classes/class-woo-civi-settings-network.php:91
 #: includes/classes/class-woo-civi-settings-network.php:92
 #: includes/classes/class-woo-civi-settings-network.php:115
-msgid "Integrate CiviCRM with WooCommerce Settings"
+msgid "WPCV CiviCRM integration for WooCommerce Settings"
 msgstr ""
 
 #: includes/classes/class-woo-civi-settings-network.php:140
@@ -1008,8 +1004,6 @@ msgid "— No Change —"
 msgstr ""
 
 #: includes/classes/class-woo-civi-settings.php:153
-#: wpcv-woo-civi-integration.php:770
-#: wpcv-woo-civi-integration.php:813
 msgid "CiviCRM"
 msgstr ""
 
@@ -1193,41 +1187,4 @@ msgstr ""
 
 #: includes/products/class-woo-civi-product-participant.php:98
 msgid "CiviCRM Participants cannot be backordered."
-msgstr ""
-
-#: wpcv-woo-civi-integration.php:724
-#: wpcv-woo-civi-integration.php:767
-#: wpcv-woo-civi-integration.php:810
-msgid "Activation failed"
-msgstr ""
-
-#. translators: 1: The plugin name, 2: WooCommerce
-#. translators: 1: The plugin name, 2: CiviCRM
-#: wpcv-woo-civi-integration.php:731
-#: wpcv-woo-civi-integration.php:774
-msgid "%1$s requires %2$s to be installed and activated."
-msgstr ""
-
-#. translators: %s: WooCommerce
-#. translators: %s: CiviCRM
-#: wpcv-woo-civi-integration.php:737
-#: wpcv-woo-civi-integration.php:780
-msgid "This plugin has been deactivated! Please activate %s and try again."
-msgstr ""
-
-#. translators: 1: The opening anchor tag, 2: The closing anchor tag
-#: wpcv-woo-civi-integration.php:742
-#: wpcv-woo-civi-integration.php:785
-#: wpcv-woo-civi-integration.php:828
-msgid "Back to the WordPress %1$splugins page%2$s."
-msgstr ""
-
-#. translators: 1: The plugin name, 2: CiviCRM
-#: wpcv-woo-civi-integration.php:817
-msgid "%1$s requires %2$s to be fully installed and configured."
-msgstr ""
-
-#. translators: %s: CiviCRM
-#: wpcv-woo-civi-integration.php:823
-msgid "This plugin has been deactivated! Please configure %s and try again."
 msgstr ""
